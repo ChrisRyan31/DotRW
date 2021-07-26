@@ -11,6 +11,7 @@ public class Begin {
     Hero hero;
     Weapon weapon;
     private int currentHit;
+    Scanner scanner = new Scanner(System.in);
 
     public Begin (Hero hero, Wizard wizard, Weapon weapon) {
         this.hero = hero;
@@ -84,7 +85,6 @@ public class Begin {
             System.out.println("**********************************************************");
             System.out.println("\r\nCreated by Rez");
             System.out.println("Press \"ENTER\" to Quit..");
-            Scanner scanner = new Scanner(System.in);
             scanner.nextLine();
             System.exit(0);
         } else if (hero.getHitPoints() <= 0) {
@@ -94,13 +94,11 @@ public class Begin {
             System.out.println("**********************************************************");
             System.out.println("\r\nCreated by Rez");
             System.out.println("Press \"ENTER\" to Quit..");
-            Scanner scanner = new Scanner(System.in);
             scanner.nextLine();
             System.exit(0);
         } else {
             System.out.println(hero.getHeroName() + " has not yet defeated " + wizard.getName() + ". Another round??..\r\n");
             System.out.println("Press \"ENTER\"..");
-            Scanner scanner = new Scanner(System.in);
             scanner.nextLine();
         }
     }
