@@ -49,6 +49,13 @@ public class WizardTest {
         } else {
             assertEquals(1, magicReturned);
         }
+    }
 
+    @Test
+    public void setHitPoints() {
+        Wizard wizard = new Wizard();
+        wizard.setHitPoints();
+
+        assertEquals(0, wizard.getHitPoints());
     }
 }
