@@ -1,2 +1,0 @@
-com/DotRW/DotRWTest.java
- com.DotRW.DotRWTest

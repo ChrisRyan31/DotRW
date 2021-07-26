@@ -26,7 +26,7 @@ public class Weapon {
     public int damage() {
         int swordDmg = 10;
         int axeDmg = 12;
-        int bowDmg = 8;
+        int bowDmg = 9;
 
         if (this.weaponChosen.equals("Sword")) {
             return random.nextInt(swordDmg);

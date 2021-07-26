@@ -21,8 +21,12 @@ public class DotRW {
 
         Wizard theWizard = new Wizard();
 
+        System.out.println("****************************************************");
+        System.out.println("* Welcome to the Dungeon of the recursive Wizard!! *");
+        System.out.println("****************************************************\r\n");
+
         Scanner heroObj = new Scanner(System.in);
-        System.out.println("What is your Hero Name?");
+        System.out.println("What is your name Hero?");
         String heroName = heroObj.nextLine();
         Hero hero = new Hero(heroName);
 
