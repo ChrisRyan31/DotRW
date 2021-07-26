@@ -30,8 +30,8 @@ public class Begin {
         String wizardName = wizard.getName();
         String heroName = hero.getHeroName();
 
-        boolean cont = false;
-        while (!cont) {
+
+        while (true) {
             currentHit = weapon.damage();
             if (currentHit == 0) {
                 System.out.println(heroName + " attacks with " + weapon.getName() + " but misses!");
@@ -45,7 +45,6 @@ public class Begin {
             if (wizard.getHitPoints() <= 0) {
                 wizard.setHitPoints();
                 System.out.println(wizardName + " has " + wizard.getHitPoints() + " hit points remaining.\r\n");
-                cont = false;
                 this.winner();
                 return;
             }
@@ -66,7 +65,6 @@ public class Begin {
             if (hero.getHitPoints() <= 0) {
                 hero.setHitPoints();
                 System.out.println(hero.getHeroName() + " has " + hero.getHitPoints() + " hit points remaining.\r\n");
-                cont = false;
                 this.winner();
                 return;
             }
@@ -75,7 +73,6 @@ public class Begin {
             this.winner();
             this.roundOfCombat();
         }
-
     }
 
     private void winner() {

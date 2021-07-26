@@ -33,6 +33,10 @@ jar {
     }
 }
 
+application {
+    mainClassName = "com.DotRW.DotRW"
+}
+
 run {
     standardInput = System.in
 }
