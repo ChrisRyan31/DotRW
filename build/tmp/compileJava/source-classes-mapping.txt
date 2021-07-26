@@ -1,0 +1,10 @@
+com/DotRW/Hero/Hero.java
+ com.DotRW.Hero.Hero
+com/DotRW/Weapon/Weapon.java
+ com.DotRW.Weapon.Weapon
+com/DotRW/Wizard/Wizard.java
+ com.DotRW.Wizard.Wizard
+com/DotRW/DotRW.java
+ com.DotRW.DotRW
+com/DotRW/Begin/Begin.java
+ com.DotRW.Begin.Begin
