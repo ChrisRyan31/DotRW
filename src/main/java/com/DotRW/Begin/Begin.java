@@ -31,7 +31,6 @@ public class Begin {
         String wizardName = wizard.getName();
         String heroName = hero.getHeroName();
 
-
         while (true) {
             currentHit = weapon.damage();
             if (currentHit == 0) {

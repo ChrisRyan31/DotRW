@@ -9,7 +9,6 @@ public class Weapon {
     public String weaponChosen;
     Random random = new Random();
 
-
     public Weapon(String name, int weaponChoice) {
         this.weaponName = name;
         weaponTypes.put(1, "Sword");
